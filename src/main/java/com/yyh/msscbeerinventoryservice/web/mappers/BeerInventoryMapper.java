@@ -1,7 +1,7 @@
 package com.yyh.msscbeerinventoryservice.web.mappers;
 
 import com.yyh.msscbeerinventoryservice.domain.BeerInventory;
-import com.yyh.msscbeerinventoryservice.web.model.BeerInventoryDto;
+import com.yyh.brewery.model.BeerInventoryDto;
 import org.mapstruct.Mapper;
 
 @Mapper(uses = {DateMapper.class})
