@@ -1,6 +1,6 @@
 package com.yyh.msscbeerinventoryservice.services;
 
-import com.yyh.brewery.model.events.BeerDto;
+import com.yyh.brewery.model.BeerDto;
 import com.yyh.brewery.model.events.NewInventoryEvent;
 import com.yyh.msscbeerinventoryservice.config.JmsConfig;
 import com.yyh.msscbeerinventoryservice.domain.BeerInventory;
