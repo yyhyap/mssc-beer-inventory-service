@@ -30,8 +30,10 @@ public class AllocationListener {
 
             // if fully allocated, pending inventory equal to false
             if(allocationResult) {
+                builder.allocationError(false);
                 builder.pendingInventory(false);
             } else {
+                builder.allocationError(false);
                 builder.pendingInventory(true);
             }
         } catch (Exception e) {
